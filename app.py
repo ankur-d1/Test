@@ -6,7 +6,7 @@ import random
 import os
 
 app = Flask(__name__)
-
+color=color_codes[color]
 color_codes = {
     "red": "#e74c3c",
     "green": "#16a085",
